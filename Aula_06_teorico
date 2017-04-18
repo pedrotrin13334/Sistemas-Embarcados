@@ -1,0 +1,31 @@
+Data: 28/03/2017
+
+1. Como se utiliza o comando 'ps' para:
+	(a) Mostrar todos os processos rodando na máquina?
+   ps-aux
+	(b) Mostrar os processos de um usuário?
+	(c) Ordenar todos os processos de acordo com o uso da CPU?
+	(d) Mostrar a quanto tempo cada processo está rodando?
+
+2. De onde vem o nome fork()?
+  Vem de bifurcar, do inglês
+
+3. Quais são as vantagens e desvantagens em utilizar:
+	(a) system()?
+	(b) fork() e exec()?
+
+4. É possível utilizar o exec() sem executar o fork() antes?
+ Sim, ele executara o programa e sobrescreverá a main.
+5. Quais são as características básicas das seguintes funções:
+	(a) execp()?
+   executa um programa no Diretorio padrao do linux.
+	(b) execv()?
+  executa uma lista de programas, colocadas como argumento em um ponteiro de char
+	(c) exece()?
+  executa uma lista de programas, na qual voce pode mandar argumentos externos a ela.
+	(d) execvp()?
+  mesmo que o execv, com a excessão de procurar os programas a serem executados no diretorio padrao do linux
+	(e) execve()?
+  mesmo que o execv, mas com esse é possivel mandar argumentos para os programas executados.
+	(f) execle()?
+  recebe como argumento cada programa a ser executado, a path dos processos e pode receber argumentos extras para os processos.
